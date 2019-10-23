@@ -5,27 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:XAML_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Learning WPF" Height="450" Width="800">
     <Grid>
-        <TextBlock x:Name="txtbl1" 
-                   Foreground="Chocolate" 
-                   VerticalAlignment="Top" 
-                   Width="auto"
-                   TextWrapping="WrapWithOverflow">
-            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" 
-                       NavigateUri="https://www.howkteam.com">
-                        www.howkteam.com</Hyperlink>
-            - <Bold><Underline>Free Education</Underline></Bold>
-            - <Bold><Italic>Share to be better</Italic></Bold> 
-            - <Span FontFamily="Arial" FontSize="20" Foreground="Purple">K9</Span>
-            
-        </TextBlock>
-        <TextBlock x:Name="txtbl2"
-                   VerticalAlignment="Bottom"
-                   TextWrapping="WrapWithOverflow">
-        </TextBlock>
-        <TextBlock x:Name="txtbl3" TextTrimming="CharacterEllipsis" VerticalAlignment="Center">
-            
-        </TextBlock>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row ="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width ="2*"></ColumnDefinition>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="1" FontSize = "100" Grid.Column ="1"></Button>
+            <Button Content="2" FontSize = "100" Grid.Column="0"></Button>
+        </Grid>
+        <Grid Grid.Row ="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="6*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="3" FontSize = "100" Grid.Column ="1"></Button>
+            <Button Content="4" FontSize = "100" Grid.Column="0" ></Button>
+        </Grid>
+
+
+
     </Grid>
 </Window>
