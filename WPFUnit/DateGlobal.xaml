@@ -1,0 +1,35 @@
+﻿<Window x:Class="WPFUnit.DateGlobal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFUnit"
+        mc:Ignorable="d"
+        Title="DateGlobal" Height="200" Width="320"
+        ResizeMode="CanResizeWithGrip">
+    <StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                       Margin="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height ="Auto"/>
+                <RowDefinition Height ="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label> Number:</Label>
+            <Label Name="lblNumber" Grid.Column ="1"/>
+            <Label Grid.Row="1">Date:</Label>
+            <Label Name ="lblDate" Grid.Row="1" Grid.Column="1"></Label>
+        </Grid>
+        <StackPanel Orientation="Horizontal" Margin="9,0.2" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Button Tag="en-US" FontSize="10" Click="CurtureInfoSwitchButton_Click" HorizontalContentAlignment="Stretch" Content="English (US)"/>
+            <Button Tag="de-DE" FontSize="10" Click="CurtureInfoSwitchButton_Click" HorizontalContentAlignment="Stretch" Margin="5,0" Content="German (DE)"/>
+            <Button Tag="sv-SE" FontSize="10" Click="CurtureInfoSwitchButton_Click" HorizontalContentAlignment="Stretch" Margin="0,0" Content="Swedish (SE)"/>
+            <Button Tag="fr-FR" FontSize="10" Click="CurtureInfoSwitchButton_Click" HorizontalContentAlignment="Stretch" Margin="5,0" Content="French (FR)"/>
+        </StackPanel>
+    </StackPanel>
+    
+</Window>

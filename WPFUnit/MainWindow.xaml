@@ -12,9 +12,17 @@
             <ColumnDefinition Width="5"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Button Content="1" FontSize="100" Grid.Column="0"></Button>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button Content="1" FontSize="20" Grid.Column="0"></Button>
         <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
-        <Button Content="2" Width="auto" FontSize="100" Grid.Column="2"></Button>
+        <Button Content="2" Width="auto" FontSize="20" Grid.Column="2"></Button>
 
         <!--thang nao ra sau thang do nam tren-->
     </Grid>
