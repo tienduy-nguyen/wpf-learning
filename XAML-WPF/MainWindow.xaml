@@ -1,0 +1,31 @@
+﻿<Window x:Class="XAML_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XAML_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="txtbl1" 
+                   Foreground="Chocolate" 
+                   VerticalAlignment="Top" 
+                   Width="auto"
+                   TextWrapping="WrapWithOverflow">
+            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" 
+                       NavigateUri="https://www.howkteam.com">
+                        www.howkteam.com</Hyperlink>
+            - <Bold><Underline>Free Education</Underline></Bold>
+            - <Bold><Italic>Share to be better</Italic></Bold> 
+            - <Span FontFamily="Arial" FontSize="20" Foreground="Purple">K9</Span>
+            
+        </TextBlock>
+        <TextBlock x:Name="txtbl2"
+                   VerticalAlignment="Bottom"
+                   TextWrapping="WrapWithOverflow">
+        </TextBlock>
+        <TextBlock x:Name="txtbl3" TextTrimming="CharacterEllipsis" VerticalAlignment="Center">
+            
+        </TextBlock>
+    </Grid>
+</Window>
