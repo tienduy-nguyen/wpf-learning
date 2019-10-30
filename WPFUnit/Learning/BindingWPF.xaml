@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFUnit.WPF.BindingWPF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFUnit.WPF"
+        mc:Ignorable="d"
+        Title="BindingWPF" Height="350" Width="600"
+        ResizeMode="CanResizeWithGrip">
+    <Grid>
+        <TextBox x:Name="txbSource" VerticalAlignment="Top" Text ="{Binding ButtonName}"></TextBox>
+        <TextBox x:Name="txbBiding" VerticalAlignment="Center" 
+                 Text="{Binding Path=Text, ElementName=txbSource, Mode=TwoWay}"></TextBox>
+        <Button x:Name="btnBiding" VerticalAlignment="Bottom" 
+                Content="{Binding ButtonName}"
+                ></Button>
+    </Grid>
+</Window>
+ 

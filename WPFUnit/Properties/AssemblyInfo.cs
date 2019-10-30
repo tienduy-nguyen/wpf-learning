@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("VCF")]
 [assembly: AssemblyProduct("WPFUnit")]
-[assembly: AssemblyCopyright("Copyright © VCF 2019")]
+[assembly: AssemblyCopyright("Copyright © Tien Duy NGUYEN 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

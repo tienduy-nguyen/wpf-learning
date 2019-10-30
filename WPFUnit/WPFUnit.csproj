@@ -55,29 +55,71 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
+    <ApplicationDefinition Include="Application\App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="DateGlobal.xaml">
+    <Compile Include="Learning\BindingWPF.xaml.cs">
+      <DependentUpon>BindingWPF.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\Checkbox.xaml.cs">
+      <DependentUpon>Checkbox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\RadioButton.xaml.cs">
+      <DependentUpon>RadioButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\ScrollViewer.xaml.cs">
+      <DependentUpon>ScrollViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\Slider.xaml.cs">
+      <DependentUpon>Slider.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\ToggleButton.xaml.cs">
+      <DependentUpon>ToggleButton.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Learning\BindingWPF.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
+    <Page Include="Learning\Checkbox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\DateGlobal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="App.xaml.cs">
+    <Compile Include="Application\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DateGlobal.xaml.cs">
+    <Compile Include="Learning\DateGlobal.xaml.cs">
       <DependentUpon>DateGlobal.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="Learning\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Learning\RadioButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\ScrollViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\Slider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\ToggleButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

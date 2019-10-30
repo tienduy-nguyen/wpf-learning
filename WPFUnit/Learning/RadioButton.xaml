@@ -1,0 +1,45 @@
+﻿<Window x:Class="WPFUnit.WPF.RadioButton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFUnit.WPF"
+        mc:Ignorable="d"
+        Title="RadioButton" Height="400" Width="500"
+        ResizeMode="CanResizeWithGrip">
+    <Grid>
+        <StackPanel>
+            <RadioButton IsChecked="True" Content="Option A"></RadioButton>
+            <RadioButton IsChecked="True" Content="Option B"></RadioButton>
+            <RadioButton IsChecked="True" Content="Option C"></RadioButton>
+            <RadioButton IsChecked="True" Content="Option D"></RadioButton>
+            <Border x:Name="brMain" BorderThickness="2" BorderBrush="Black" Margin="5" >
+                <StackPanel>
+                    <RadioButton IsChecked="True" Content="Option A"></RadioButton>
+                    <RadioButton IsChecked="True" Content="Option B"></RadioButton>
+                    <RadioButton IsChecked="True" Content="Option C"></RadioButton>
+                    <RadioButton IsChecked="True" Content="Option D"></RadioButton>
+                </StackPanel>
+            </Border>
+
+            <Border x:Name="brMain1" BorderThickness="2" BorderBrush="Black" Margin="5">
+                <StackPanel>
+                    <RadioButton IsChecked="True" Content="Option A"></RadioButton>
+                    <RadioButton IsChecked="True" Content="Option B"></RadioButton>
+                    <RadioButton IsChecked="True" Content="Option C"></RadioButton>
+                    <RadioButton IsChecked="True" Content="Option D"></RadioButton>
+                </StackPanel>
+            </Border>
+
+            <Border x:Name="brMain2" BorderThickness="2" BorderBrush="Black" Margin="5" >
+                <StackPanel>
+                    <RadioButton IsChecked="True" Content="Option A"></RadioButton>
+                    <RadioButton IsChecked="True" Content="Option B"></RadioButton>
+                    <RadioButton IsChecked="True" Content="Option C"></RadioButton>
+                    <RadioButton IsChecked="True" Content="Option D"></RadioButton>
+                </StackPanel>
+            </Border>
+<Button Content="click" Click="ButtonBase_OnClick"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
