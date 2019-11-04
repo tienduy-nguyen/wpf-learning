@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\01-GITHUB\wpf-learning\WPFUnit\Application\App.xaml
-8470821137
+121166949864
 
-16-402867798
+19747828671
 13-1662647192
-Learning\BindingWPF.xaml;Learning\Checkbox.xaml;Learning\DateGlobal.xaml;Learning\MainWindow.xaml;Learning\RadioButton.xaml;Learning\ScrollViewer.xaml;Learning\Slider.xaml;Learning\ToggleButton.xaml;
+Learning\BindingWPF.xaml;Learning\Checkbox.xaml;Learning\DataTemplate.xaml;Learning\DateGlobal.xaml;Learning\Image.xaml;Learning\MainWindow.xaml;Learning\RadioButton.xaml;Learning\ScrollViewer.xaml;Learning\Slider.xaml;Learning\Style.xaml;Learning\ToggleButton.xaml;StyleResources.xaml;
 
 True
 

@@ -41,3 +41,10 @@ D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\RadioButton.baml
 D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\ScrollViewer.baml
 D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\Slider.baml
 D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\ToggleButton.baml
+D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\Image.g.cs
+D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\Image.baml
+D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\Style.g.cs
+D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\Style.baml
+D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\StyleResources.baml
+D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\DataTemplate.g.cs
+D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\DataTemplate.baml
