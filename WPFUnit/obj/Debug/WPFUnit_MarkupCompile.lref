@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< HEAD
 Fd:\01-GITHUB\wpf-learning\WPFUnit\Learning\BindingWPF.xaml;;
 Fd:\01-GITHUB\wpf-learning\WPFUnit\Learning\Checkbox.xaml;;
 Fd:\01-GITHUB\wpf-learning\WPFUnit\Learning\DataTemplate.xaml;;
@@ -12,4 +13,18 @@ Fd:\01-GITHUB\wpf-learning\WPFUnit\Learning\Slider.xaml;;
 Fd:\01-GITHUB\wpf-learning\WPFUnit\Learning\Style.xaml;;
 Fd:\01-GITHUB\wpf-learning\WPFUnit\Learning\ToggleButton.xaml;;
 Fd:\01-GITHUB\wpf-learning\WPFUnit\StyleResources.xaml;;
+=======
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\BindingWPF.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Checkbox.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\DataTemplate.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\DateGlobal.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Image.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\MainWindow.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\RadioButton.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\ScrollViewer.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Slider.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Style.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\ToggleButton.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\StyleResources.xaml;;
+>>>>>>> f33da05babd92ea27640ca271a884ffad938c32d
 
