@@ -65,6 +65,9 @@
     <Compile Include="Learning\Checkbox.xaml.cs">
       <DependentUpon>Checkbox.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Learning\Combobox.xaml.cs">
+      <DependentUpon>Combobox.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Learning\DataTemplate.xaml.cs">
       <DependentUpon>DataTemplate.xaml</DependentUpon>
     </Compile>
@@ -91,6 +94,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Learning\Checkbox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\Combobox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
