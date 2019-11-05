@@ -40,9 +40,15 @@ namespace WPFUnit.Learning
                 new Food(){Name = "Burger", Price = "8.00"}
             };
             cboListFood.ItemsSource = listFood;
-            cboListFood.DisplayMemberPath = nameof(Food.Name);
+            //cboListFood.DisplayMemberPath = nameof(Food.Name);
             cboListFood.SelectedValuePath = nameof(Food.Price);
             cboListFood.SelectionChanged += CboListFood_SelectionChanged;
+
+            //Add source to list color
+            cboListColor.ItemsSource = typeof(Colors).GetProperties();
+
+            //Add source to list brushes
+            cboListBrush.ItemsSource = typeof(Brushes).GetProperties();
         }
 
         private void CboListFood_SelectionChanged(object sender, SelectionChangedEventArgs e)

@@ -14,7 +14,7 @@
                 <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
                 <Setter Property="Background" Value="MediumAquamarine"></Setter>
             </Style>
-            <Style TargetType="ComboBox" x:Key="cboStyleHeight">
+            <Style TargetType="ComboBox">
                 <Setter Property="Height" Value="30"></Setter>
             </Style>
         </StackPanel.Resources>
@@ -47,16 +47,50 @@
 
         <ComboBox x:Name="cboListName">
         </ComboBox>
-        <ComboBox x:Name="cboListFood" Width="700">
+        <ComboBox x:Name="cboListFood">
             <ComboBox.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
+                    <Grid Width="700">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition></ColumnDefinition>
                             <ColumnDefinition></ColumnDefinition>
                         </Grid.ColumnDefinitions>
                         <TextBlock Text="{Binding Name}" Grid.Column="0"></TextBlock>
                         <TextBlock Text="{Binding Price}" Grid.Column="1"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox x:Name="cboListColor">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Fill="{Binding Name, Mode=OneWay}" Margin="0.2 0.2 5 0.2" Width="16"></Rectangle>
+                        <TextBox Text="{Binding Name, Mode=OneWay}"></TextBox>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox x:Name="cboListBrush">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Fill="{Binding Name, Mode=OneWay}" Margin="0.2 0.2 5 0.2" Width="16"></Rectangle>
+                        <TextBox Text="{Binding Name, Mode=OneWay}"></TextBox>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox x:Name="cboListFont" ItemsSource="{x:Static Fonts.SystemFontFamilies}">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="500">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBox Text="{Binding Mode=OneWay}" Grid.Column="0"></TextBox>
+                        <TextBox Text="www.howkteam.com" FontFamily="{Binding Mode=OneWay}" Grid.Column="1"></TextBox>
                     </Grid>
                 </DataTemplate>
             </ComboBox.ItemTemplate>
