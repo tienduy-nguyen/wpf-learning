@@ -4,29 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-d:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\
-=======
-E:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\
->>>>>>> f33da05babd92ea27640ca271a884ffad938c32d
+D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\
 WPFUnit
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-d:\01-GITHUB\wpf-learning\WPFUnit\Application\App.xaml
-12758993328
+D:\01-GITHUB\wpf-learning\WPFUnit\Application\App.xaml
+13-319527950
 
-16-2100280605
-13-323816924
-=======
-E:\01-GITHUB\wpf-learning\WPFUnit\Application\App.xaml
-121166949864
-
-19747828671
+162109683932
 13-1662647192
->>>>>>> f33da05babd92ea27640ca271a884ffad938c32d
-Learning\BindingWPF.xaml;Learning\Checkbox.xaml;Learning\DataTemplate.xaml;Learning\DateGlobal.xaml;Learning\Image.xaml;Learning\MainWindow.xaml;Learning\RadioButton.xaml;Learning\ScrollViewer.xaml;Learning\Slider.xaml;Learning\Style.xaml;Learning\ToggleButton.xaml;StyleResources.xaml;
+Learning\BindingWPF.xaml;Learning\Checkbox.xaml;Learning\Combobox.xaml;Learning\DataTemplate.xaml;Learning\DateGlobal.xaml;Learning\Image.xaml;Learning\MainWindow.xaml;Learning\RadioButton.xaml;Learning\ScrollViewer.xaml;Learning\Slider.xaml;Learning\Style.xaml;Learning\ToggleButton.xaml;StyleResources.xaml;
 
-True
+False
 

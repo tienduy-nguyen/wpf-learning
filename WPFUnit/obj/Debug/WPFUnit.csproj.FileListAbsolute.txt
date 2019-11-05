@@ -48,3 +48,5 @@ D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\Style.baml
 D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\StyleResources.baml
 D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\DataTemplate.g.cs
 D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\DataTemplate.baml
+D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\Combobox.g.cs
+D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\Combobox.baml

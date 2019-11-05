@@ -23,5 +23,37 @@ namespace WPFUnit.Learning
         {
             InitializeComponent();
         }
+
+        List<string> listName;
+        List<Food> listFood;
+        private void Combobox_OnLoaded(object sender, RoutedEventArgs e)
+        {
+            //Add source to list name
+            listName = new List<string>(){"www.howkteam.com","Free Education","Share to be better"};
+            cboListName.ItemsSource = listName;
+
+            //Add source to list food
+            listFood = new List<Food>()
+            {
+                new Food(){Name = "Pizza", Price = "10.00"},
+                new Food(){Name = "Bobun", Price = "11.00"},
+                new Food(){Name = "Burger", Price = "8.00"}
+            };
+            cboListFood.ItemsSource = listFood;
+            cboListFood.DisplayMemberPath = nameof(Food.Name);
+            cboListFood.SelectedValuePath = nameof(Food.Price);
+            cboListFood.SelectionChanged += CboListFood_SelectionChanged;
+        }
+
+        private void CboListFood_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            MessageBox.Show(cboListFood.SelectedValue.ToString());
+        }
+
+        public class Food
+        {
+            public string Name { get; set; }
+            public string Price { get; set; }
+        }
     }
 }
