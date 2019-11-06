@@ -17,11 +17,19 @@ namespace WPFUnit.Learning
     /// <summary>
     /// Interaction logic for Listview.xaml
     /// </summary>
-    public partial class Listview : Window
+    public partial class ListViewSimple : Window
     {
-        public Listview()
+        private List<string> listData;
+        public ListViewSimple()
         {
             InitializeComponent();
+            listData = new List<string>();
+            for (int i = 0; i < 10; i++)
+            {
+                listData.Add($"Item {i.ToString()}");
+                lsvData.ItemsSource = listData;
+            }
+
         }
     }
 }

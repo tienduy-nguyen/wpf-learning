@@ -77,8 +77,17 @@
     <Compile Include="Learning\Listbox.xaml.cs">
       <DependentUpon>Listbox.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Learning\Listview.xaml.cs">
-      <DependentUpon>Listview.xaml</DependentUpon>
+    <Compile Include="Learning\ListViewFilter.xaml.cs">
+      <DependentUpon>ListViewFilter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\ListViewSimple.xaml.cs">
+      <DependentUpon>ListViewSimple.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\ListViewSorting.xaml.cs">
+      <DependentUpon>ListViewSorting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\ListvViewWithGridView.xaml.cs">
+      <DependentUpon>ListvViewWithGridView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Learning\RadioButton.xaml.cs">
       <DependentUpon>RadioButton.xaml</DependentUpon>
@@ -123,7 +132,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Learning\Listview.xaml">
+    <Page Include="Learning\ListViewFilter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\ListViewSimple.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\ListViewSorting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\ListvViewWithGridView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
