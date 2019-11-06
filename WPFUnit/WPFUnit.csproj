@@ -74,6 +74,21 @@
     <Compile Include="Learning\Image.xaml.cs">
       <DependentUpon>Image.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Learning\Listbox.xaml.cs">
+      <DependentUpon>Listbox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\ListViewFilter.xaml.cs">
+      <DependentUpon>ListViewFilter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\ListViewSimple.xaml.cs">
+      <DependentUpon>ListViewSimple.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\ListViewSorting.xaml.cs">
+      <DependentUpon>ListViewSorting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\ListvViewWithGridView.xaml.cs">
+      <DependentUpon>ListvViewWithGridView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Learning\RadioButton.xaml.cs">
       <DependentUpon>RadioButton.xaml</DependentUpon>
     </Compile>
@@ -113,6 +128,26 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Learning\Listbox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\ListViewFilter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\ListViewSimple.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\ListViewSorting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\ListvViewWithGridView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Learning\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -148,12 +183,33 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Learning\TreeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\TreeviewLazyLoad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\Trigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="StyleResources.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Learning\TreeView.xaml.cs">
+      <DependentUpon>TreeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\TreeviewLazyLoad.xaml.cs">
+      <DependentUpon>TreeviewLazyLoad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\Trigger.xaml.cs">
+      <DependentUpon>Trigger.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

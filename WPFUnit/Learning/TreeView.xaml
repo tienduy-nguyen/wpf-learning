@@ -1,0 +1,74 @@
+﻿<Window x:Class="WPFUnit.Learning.TreeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFUnit.Learning"
+        xmlns:wpfUnit="clr-namespace:WPFUnit"
+        mc:Ignorable="d"
+        Title="TreeView" Height="450" Width="350"
+        ResizeMode="CanResizeWithGrip">
+    <StackPanel>
+        <Grid>
+            <DockPanel Margin="10">
+                <TextBlock DockPanel.Dock="Top" Text="Items list" Height="20"></TextBlock>
+                <TreeView Name="trvMenu">
+                    <TreeView.ItemTemplate>
+                        <HierarchicalDataTemplate DataType="{x:Type MenuItem}" ItemsSource="{Binding Items}">
+                            <CheckBox Content="{Binding Title}">
+                                <CheckBox.Style>
+                                    <Style TargetType="{x:Type CheckBox}">
+                                        <Setter Property="Foreground" Value="Black"/>
+                                        <Setter Property="Visibility" Value="Visible"/>
+                                    </Style>
+                                </CheckBox.Style>
+                            </CheckBox>
+                        </HierarchicalDataTemplate>
+                    </TreeView.ItemTemplate>
+                </TreeView>
+            </DockPanel>
+
+        </Grid>
+        <Grid>
+            <DockPanel Margin="10">
+                <TextBlock DockPanel.Dock="Top" Text="Family members"></TextBlock>
+                <TreeView x:Name="trvFamily">
+                    <TreeView.Resources>
+                        <HierarchicalDataTemplate DataType="{x:Type local:Family}" ItemsSource="{Binding Members}">
+                            <StackPanel Orientation="Horizontal">
+                                <CheckBox></CheckBox>
+                                <TextBlock Text="{Binding Name}"></TextBlock>
+                                <TextBlock Text="[" Foreground="Blue"></TextBlock>
+                                <TextBlock Text="{Binding Members.Count}" Foreground="Blue"></TextBlock>
+                                <TextBlock Text="]" Foreground="Blue"></TextBlock>
+                            </StackPanel>
+                        </HierarchicalDataTemplate>
+                        <DataTemplate DataType="{x:Type local:FamilyMember}">
+                            <StackPanel Orientation="Horizontal">
+                                <CheckBox></CheckBox>
+                                <TextBlock Text="{Binding Name}"></TextBlock>
+                                <TextBlock Text="(" Foreground="Green"></TextBlock>
+                                <TextBlock Text="{Binding Age}" Foreground="Green"></TextBlock>
+                                <TextBlock Text=")" Foreground="Green"></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </TreeView.Resources>
+                </TreeView>
+            </DockPanel>
+        </Grid>
+    </StackPanel>
+
+    <!--<Grid>
+        <Grid.Resources>
+            <HierarchicalDataTemplate
+                DataType="{x:Type local:CheckableItem}" 
+                ItemsSource="{Binding Children}">
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox IsChecked="{Binding IsChecked}"/>
+                    <TextBlock Text="{Binding Value}"/>
+                </StackPanel>
+            </HierarchicalDataTemplate>
+        </Grid.Resources>
+        <TreeView ItemsSource="{Binding MyCollectionOfCheckableItems}"/>
+    </Grid>-->
+</Window>
