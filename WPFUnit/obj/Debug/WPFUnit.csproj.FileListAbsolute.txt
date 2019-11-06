@@ -84,3 +84,6 @@ E:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\ListViewSorting.baml
 E:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\ListvViewWithGridView.baml
 E:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\ListViewFilter.g.cs
 E:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\ListViewFilter.baml
+E:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\TreeView.g.cs
+E:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\Learning\TreeView.baml
+E:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\GeneratedInternalTypeHelper.g.cs
