@@ -74,6 +74,12 @@
     <Compile Include="Learning\Image.xaml.cs">
       <DependentUpon>Image.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Learning\Listbox.xaml.cs">
+      <DependentUpon>Listbox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Learning\Listview.xaml.cs">
+      <DependentUpon>Listview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Learning\RadioButton.xaml.cs">
       <DependentUpon>RadioButton.xaml</DependentUpon>
     </Compile>
@@ -110,6 +116,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Learning\Image.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\Listbox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\Listview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\
+E:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\
 WPFUnit
 none
 false
 DEBUG;TRACE
-D:\01-GITHUB\wpf-learning\WPFUnit\Application\App.xaml
-13-319527950
+E:\01-GITHUB\wpf-learning\WPFUnit\Application\App.xaml
+14561445837
 
-162109683932
+17-1263147948
 13-1662647192
-Learning\BindingWPF.xaml;Learning\Checkbox.xaml;Learning\Combobox.xaml;Learning\DataTemplate.xaml;Learning\DateGlobal.xaml;Learning\Image.xaml;Learning\MainWindow.xaml;Learning\RadioButton.xaml;Learning\ScrollViewer.xaml;Learning\Slider.xaml;Learning\Style.xaml;Learning\ToggleButton.xaml;StyleResources.xaml;
+Learning\BindingWPF.xaml;Learning\Checkbox.xaml;Learning\Combobox.xaml;Learning\DataTemplate.xaml;Learning\DateGlobal.xaml;Learning\Image.xaml;Learning\Listbox.xaml;Learning\MainWindow.xaml;Learning\RadioButton.xaml;Learning\ScrollViewer.xaml;Learning\Slider.xaml;Learning\Style.xaml;Learning\ToggleButton.xaml;StyleResources.xaml;
 
 False
 

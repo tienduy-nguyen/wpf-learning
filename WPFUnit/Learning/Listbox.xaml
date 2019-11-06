@@ -1,0 +1,33 @@
+﻿<Window x:Class="WPFUnit.Learning.Listbox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFUnit.Learning"
+        mc:Ignorable="d"
+        Title="Listbox" Height="400" Width="600">
+    <Grid>
+        <StackPanel>
+            <ComboBox x:Name="cboData" >
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <CheckBox Margin="1 0.2 3 0.2"></CheckBox>
+                            <TextBlock Text="Item" Margin="0 0 1 0"></TextBlock>
+                            <TextBlock Text="{Binding}"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <ListBox x:Name="lsbData">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid HorizontalAlignment="Stretch">
+                            <CheckBox Content="Item"></CheckBox>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Window>
