@@ -1,0 +1,80 @@
+﻿<Window x:Class="WPFUnit.Learning.Trigger"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFUnit.Learning"
+        xmlns:wpfUnit="clr-namespace:WPFUnit"
+        mc:Ignorable="d"
+        Title="Trigger" Height="350" Width="450"
+        ResizeMode="CanResizeWithGrip">
+    
+    <Grid>
+        <!--Data Trigger-->
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
+            <CheckBox Name="chkSample" Content="HowKteam.com" Foreground="Purple"></CheckBox>
+            <TextBlock HorizontalAlignment="Left" Margin=" 0,5,0,0" 
+                       FontSize="40">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Text" Value="Free Education"></Setter>
+                        <Setter Property="Foreground" Value="Purple"></Setter>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=chkSample, Path=IsChecked}" Value="True">
+                                <Setter Property="Text" Value="Share to be better"></Setter>
+                                <Setter Property="Foreground" Value="MediumAquamarine"></Setter>
+                            </DataTrigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="Orange"></Setter>
+                                <Setter Property="FontStyle" Value="Italic"></Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin=" 0,5,0,0" 
+                       FontSize="40" Text="HowKteam.com">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Foreground" Value="Blue"></Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="Red"></Setter>
+                                <Setter Property="TextDecorations" Value="Underline"></Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+
+            <TextBlock x:Name="lblStyled" Text="Hello, styled world!" FontSize="18"
+                       HorizontalAlignment="Right">
+                        <TextBlock.Style>
+                            <Style TargetType="TextBlock">
+                                <Style.Triggers>
+                                    <EventTrigger RoutedEvent="UIElement.MouseEnter">
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <DoubleAnimation Duration="0:0:1.300"
+                                                                 Storyboard.TargetProperty="FontSize" To="34"></DoubleAnimation>
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </EventTrigger>
+                                    <EventTrigger RoutedEvent="UIElement.MouseLeave">
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <DoubleAnimation Duration="0:0:1.800"
+                                                                 Storyboard.TargetProperty="FontSize" To="18"></DoubleAnimation>
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </EventTrigger>
+
+                                </Style.Triggers>
+
+                            </Style>
+                        </TextBlock.Style>
+            </TextBlock>
+        </StackPanel> 
+
+    </Grid>
+</Window>
