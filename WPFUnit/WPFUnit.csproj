@@ -39,8 +39,14 @@
     </StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EPPlus, Version=4.5.3.2, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.5.3.2\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -59,6 +65,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ExcelEpplus\HowKteam\CreateFile.cs" />
+    <Compile Include="ExcelEpplus\HowKteam\ExcelWithEpplus.xaml.cs">
+      <DependentUpon>ExcelWithEpplus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelEpplus\HowKteam\ExportData.cs" />
+    <Compile Include="ExcelEpplus\HowKteam\ImportData.cs" />
+    <Compile Include="ExcelEpplus\HowKteam\User.cs" />
+    <Compile Include="ExcelEpplus\ToiDiCodeDao\HomeController.cs" />
+    <Compile Include="ExcelEpplus\ToiDiCodeDao\Item.cs" />
+    <Compile Include="Learning\BindingAdvanced.xaml.cs">
+      <DependentUpon>BindingAdvanced.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Learning\BindingWPF.xaml.cs">
       <DependentUpon>BindingWPF.xaml</DependentUpon>
     </Compile>
@@ -89,6 +107,9 @@
     <Compile Include="Learning\ListvViewWithGridView.xaml.cs">
       <DependentUpon>ListvViewWithGridView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Learning\MultiTrigger.xaml.cs">
+      <DependentUpon>MultiTrigger.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Learning\RadioButton.xaml.cs">
       <DependentUpon>RadioButton.xaml</DependentUpon>
     </Compile>
@@ -104,6 +125,14 @@
     <Compile Include="Learning\ToggleButton.xaml.cs">
       <DependentUpon>ToggleButton.xaml</DependentUpon>
     </Compile>
+    <Page Include="ExcelEpplus\HowKteam\ExcelWithEpplus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\BindingAdvanced.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Learning\BindingWPF.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -163,6 +192,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Learning\MultiTrigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Learning\RadioButton.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -195,6 +228,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Learning\UpdateSourceTrigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResourceXAML\MainResource.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="StyleResources.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -210,6 +251,10 @@
     <Compile Include="Learning\Trigger.xaml.cs">
       <DependentUpon>Trigger.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Learning\UpdateSourceTrigger.xaml.cs">
+      <DependentUpon>UpdateSourceTrigger.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -227,6 +272,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -238,5 +284,6 @@
   <ItemGroup>
     <Resource Include="Learning\Images\logo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

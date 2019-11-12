@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFUnit.Learning.UpdateSourceTrigger"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFUnit.Learning"
+        mc:Ignorable="d"
+        Title="UpdateSourceTrigger" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <TextBox Name="tbxData" Text="{Binding DataValue, UpdateSourceTrigger=PropertyChanged}" 
+                 Height="20"></TextBox>
+        <TextBlock Name="tbkData" Text="{Binding DataValue}" Height="20"></TextBlock>
+        <Button Content="click" Width="100" Background="MediumAquamarine"></Button>
+    </StackPanel>
+</Window>
