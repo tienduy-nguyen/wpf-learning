@@ -122,6 +122,9 @@
     <Compile Include="Learning\Style.xaml.cs">
       <DependentUpon>Style.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Learning\TestListBox.xaml.cs">
+      <DependentUpon>TestListBox.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Learning\ToggleButton.xaml.cs">
       <DependentUpon>ToggleButton.xaml</DependentUpon>
     </Compile>
@@ -209,6 +212,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Learning\Style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Learning\TestListBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

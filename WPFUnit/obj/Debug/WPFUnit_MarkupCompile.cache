@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\
+D:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\obj\Debug\
 WPFUnit
 none
 false
 DEBUG;TRACE
-D:\01-GITHUB\wpf-learning\WPFUnit\Application\App.xaml
+D:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\Application\App.xaml
 261106996389
 
-352132340780
-17681429638
+391217340671
+17-1648965352
 ExcelEpplus\HowKteam\ExcelWithEpplus.xaml;Learning\BindingAdvanced.xaml;Learning\BindingWPF.xaml;Learning\Checkbox.xaml;Learning\Combobox.xaml;Learning\DataTemplate.xaml;Learning\DateGlobal.xaml;Learning\Image.xaml;Learning\Listbox.xaml;Learning\ListViewFilter.xaml;Learning\ListViewSimple.xaml;Learning\ListViewSorting.xaml;Learning\ListvViewWithGridView.xaml;Learning\MainWindow.xaml;Learning\MultiTrigger.xaml;Learning\RadioButton.xaml;Learning\ScrollViewer.xaml;Learning\Slider.xaml;Learning\Style.xaml;Learning\ToggleButton.xaml;Learning\TreeView.xaml;Learning\TreeviewLazyLoad.xaml;Learning\Trigger.xaml;Learning\UpdateSourceTrigger.xaml;ResourceXAML\MainResource.xaml;StyleResources.xaml;
 
-False
+True
 
