@@ -4,17 +4,30 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\obj\Debug\
+=======
+E:\01-GITHUB\wpf-learning\WPFUnit\obj\Debug\
+>>>>>>> parent of 1e553de... Work with EPPlus for Excel
 WPFUnit
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 D:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\Application\App.xaml
 261106996389
 
 391217340671
 17-1648965352
 ExcelEpplus\HowKteam\ExcelWithEpplus.xaml;Learning\BindingAdvanced.xaml;Learning\BindingWPF.xaml;Learning\Checkbox.xaml;Learning\Combobox.xaml;Learning\DataTemplate.xaml;Learning\DateGlobal.xaml;Learning\Image.xaml;Learning\Listbox.xaml;Learning\ListViewFilter.xaml;Learning\ListViewSimple.xaml;Learning\ListViewSorting.xaml;Learning\ListvViewWithGridView.xaml;Learning\MainWindow.xaml;Learning\MultiTrigger.xaml;Learning\RadioButton.xaml;Learning\ScrollViewer.xaml;Learning\Slider.xaml;Learning\Style.xaml;Learning\ToggleButton.xaml;Learning\TreeView.xaml;Learning\TreeviewLazyLoad.xaml;Learning\Trigger.xaml;Learning\UpdateSourceTrigger.xaml;ResourceXAML\MainResource.xaml;StyleResources.xaml;
+=======
+E:\01-GITHUB\wpf-learning\WPFUnit\Application\App.xaml
+21-1159971845
+
+241281537131
+13-1662647192
+Learning\BindingWPF.xaml;Learning\Checkbox.xaml;Learning\Combobox.xaml;Learning\DataTemplate.xaml;Learning\DateGlobal.xaml;Learning\Image.xaml;Learning\Listbox.xaml;Learning\ListViewFilter.xaml;Learning\ListViewSimple.xaml;Learning\ListViewSorting.xaml;Learning\ListvViewWithGridView.xaml;Learning\MainWindow.xaml;Learning\RadioButton.xaml;Learning\ScrollViewer.xaml;Learning\Slider.xaml;Learning\Style.xaml;Learning\ToggleButton.xaml;Learning\TreeView.xaml;Learning\TreeviewLazyLoad.xaml;Learning\Trigger.xaml;StyleResources.xaml;
+>>>>>>> parent of 1e553de... Work with EPPlus for Excel
 
 True
 

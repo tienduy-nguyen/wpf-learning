@@ -1,5 +1,6 @@
 ﻿D:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\obj\Debug\GeneratedInternalTypeHelper.g.cs
 
+<<<<<<< HEAD
 FD:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\ExcelEpplus\HowKteam\ExcelWithEpplus.xaml;;
 FD:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\Learning\BindingAdvanced.xaml;;
 FD:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\Learning\BindingWPF.xaml;;
@@ -26,4 +27,27 @@ FD:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\Learning\Trigger.xaml;;
 FD:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\Learning\UpdateSourceTrigger.xaml;;
 FD:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\ResourceXAML\MainResource.xaml;;
 FD:\01-GITHUB\00-RevitAPI\wpf-learning\WPFUnit\StyleResources.xaml;;
+=======
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\BindingWPF.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Checkbox.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Combobox.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\DataTemplate.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\DateGlobal.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Image.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Listbox.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\ListViewFilter.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\ListViewSimple.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\ListViewSorting.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\ListvViewWithGridView.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\MainWindow.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\RadioButton.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\ScrollViewer.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Slider.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Style.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\ToggleButton.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\TreeView.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\TreeviewLazyLoad.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\Learning\Trigger.xaml;;
+FE:\01-GITHUB\wpf-learning\WPFUnit\StyleResources.xaml;;
+>>>>>>> parent of 1e553de... Work with EPPlus for Excel
 
